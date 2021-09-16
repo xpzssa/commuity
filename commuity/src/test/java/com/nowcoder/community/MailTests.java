@@ -28,6 +28,9 @@ public class MailTests {
 
     @Test
     public void testHtmlMail() {
+        /**
+         * 设置参数，以便等等调用模板demo.html，不过在此之前需要注入TemplateEngine
+         */
         Context context = new Context();
         context.setVariable("username","xpzssa");
 

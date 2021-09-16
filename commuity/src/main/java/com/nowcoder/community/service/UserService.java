@@ -29,6 +29,10 @@ public class UserService    implements CommunityConstant {
     @Autowired
     private TemplateEngine  templateEngine;
 
+
+    /**
+     * 下面这两个值都可以在application.properties中找到，这里的注入只是为了方便找到罢了
+     */
     @Value("${community.path.domain}")
     private String domain;
 

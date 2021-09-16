@@ -11,7 +11,7 @@ import javax.annotation.PreDestroy;
 
 @Service
 //@Scope("prototype") 多实例情况
-public class AlphaService {
+public class  AlphaService {
 
     @Autowired
     private BetaDao betaDao;
